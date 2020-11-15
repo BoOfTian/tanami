@@ -1,6 +1,6 @@
 package com.example.learnspring.other;
 
-public class ArrSortTest {
+public class ArrRemoveRepetitionTest {
 
     public static void main(String[] args) {
         int[] arr = {1, 4, 2, 106, 2, 7, 87, 2, 4, 4, 5, 0, 34, 2, 1, 6};
