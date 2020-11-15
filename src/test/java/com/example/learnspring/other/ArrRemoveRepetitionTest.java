@@ -6,7 +6,7 @@ public class ArrRemoveRepetitionTest {
         int[] arr = {1, 4, 2, 106, 2, 7, 87, 2, 4, 4, 5, 0, 34, 2, 1, 6};
         System.out.println("去重前 ：");
         printArr(arr);
-        arr = intArrSort(arr);
+        arr = intArrRmvRptt(arr);
         System.out.println("\n去重后 ：");
         printArr(arr);
     }
@@ -23,7 +23,7 @@ public class ArrRemoveRepetitionTest {
      * @param arr 待去重数组
      * @return 去重后的数组
      */
-    private static int[] intArrSort(int[] arr) {
+    private static int[] intArrRmvRptt(int[] arr) {
         if (arr == null || arr.length < 1) {
             throw new ArrayIndexOutOfBoundsException("the input array can't null or no element");
         }
